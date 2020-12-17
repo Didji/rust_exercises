@@ -1,4 +1,4 @@
-static VOWELS: [char; 6] = ['a', 'e', 'i', 'o', 'u', 'y'];
+const VOWELS: [char; 6] = ['a', 'e', 'i', 'o', 'u', 'y'];
 
 fn main() {
     let input_string = String::from("Brrrr the mail comes in three batches per day and the square peg will settle in the round hole");
