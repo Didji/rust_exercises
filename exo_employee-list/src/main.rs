@@ -33,7 +33,7 @@ fn main() {
 
         if let None = used_command {
             println!("Please use a valid command");
-            return;
+            continue;
         }
 
         let used_command = used_command.unwrap();
